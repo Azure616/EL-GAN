@@ -1,8 +1,5 @@
 # EL-GAN 
 
-This is a PyTorch implementation of our paper ***"EL-GAN: Edge-Enhanced Generative Adversarial Network for***
-***Layout-to-Image Generation "***
-
 ## Preparation
 
 ### 1. Create virtual environment (optional)
