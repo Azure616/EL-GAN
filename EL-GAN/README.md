@@ -21,7 +21,7 @@ $ conda activate EL-GAN
 
 ### 2. Clone the repository
 ```bash
-$ git clone git@github.com:zhaobozb/layout2im.git ======================================待修改=============
+$ git clone git@github.com:Azure616/EL-GAN.git
 $ cd EL-GAN
 ```
 
@@ -45,35 +45,21 @@ $ python scripts/preprocess_vg.py
 
 ### 5. Download pretrained models
 Download the trained models to `pretrained/`.
-1. [trained model on COCO-Stuff
-2. [trained model on Visual Genome
+1. trained model on COCO-Stuff
+2. trained model on Visual Genome
 
 ## Run codes
 
-### 1. Test models
+### Test models
 
 Test on the COCO-Stuff dataset:
 ```bash
-$ python test.py --dataset coco --model_path pretrained/coco.pth --sample_path samples/coco/  =======待修改========
+$ python test.py --dataset coco --model_path pretrained/coco128.pth --sample_path samples/coco128
 ```
 
 Test on the Visual Genome dataset:
 ```bash
-$ python test.py --dataset coco --model_path pretrained/vg.pth --sample_path samples/vg/  ===========待修改========
-```
-
-### 2. Train models
-
-Train on the COCO-Stuff dataset:
-
-```bash
-$ python train.py --dataset coco --out_path outputs/coco/
-```
-
-Train on the Visual Genome dataset:
-
-```bash
-$ python train.py --dataset vg --out_path outputs/vg/
+$ python test.py --dataset coco --model_path pretrained/vg128.pth --sample_path samples/vg128
 ```
 
 ## Results
