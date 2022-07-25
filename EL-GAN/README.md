@@ -3,12 +3,6 @@
 This is a PyTorch implementation of our paper ***"EL-GAN: Edge-Enhanced Generative Adversarial Network for***
 ***Layout-to-Image Generation "***
 
-## Network Architechture
-
-The overview of our proposed EL-GAN (a version of fnal generated images with a resolution of 64×64)  is shown below.
-
-<p align='center'><img src='images/model.png' width='1000px'></p>
-
 ## Preparation
 
 ### 1. Create virtual environment (optional)
