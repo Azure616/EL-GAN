@@ -35,10 +35,7 @@ $ python scripts/preprocess_vg.py
 ```
 
 ### 5. Download pretrained models
-Download the trained models to `pretrained/`.
-1. trained model on COCO-Stuff
-2. trained model on Visual Genome
-
+Download the [trained models](https://drive.google.com/file/d/1--VejuQEBgUExImv7KWMGFtlqYgoSPzG/view?usp=sharing) to `pretrained/`.
 ## Run codes
 
 ### Test models
